@@ -1,0 +1,23 @@
+ 
+img{
+    width: 150px;/* Размеры фотографий*/
+    height: 100px;
+	 margin-left: 5vw; /* данный параметр мне посоветовали для улучшения видимости как на макете*/   
+}
+a div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+div{
+    display: flex;
+}
+.knopka{
+     display: flex;
+    align-items:flex-end;
+    height: 35px;     
+    text-align: center;
+    margin-left: 300px;
+}
+ 
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика задание 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <a>Cделал такую работу в формате таблички, надеюсь что такой вариант подойдет ибо хотел на Реакте сделать, но не получилось увы</a>
+    <div class="container">
+        <img src="img/Parallelogram.png" alt=""> <!-- Паралелограм -->
+        <table>
+            <tr><td>A: <input type="number" id="forma_paralelograma_1" value=0></td><td>B: <input type="number" id="forma_paralelograma_2" value=0></td><td>angle: <input type="number" id="forma_paralelograma_3" value=0></td><td>ПОЧЕМУ ТО ВСЕ РАБОТАЕТ КРОМЕ ЭТОГО ПАРАЛЕЛОГРАМА, КАК С БЫСТРЫМ СЧЕТОМ ТАК И БЕЗ, А ВСЕ ОСТАЛЬНОЕ РАБОТАЕТ</td></tr> 
+            <tr><td></td></tr> 
+			<tr><td></td></tr> 
+			<tr><td>Area: <span>-</span></td><td>h:<span>-</span></td></tr>  
+        </table>
+    </div>
+    <hr> 
+    <div class="container">
+        <img src="img/Roundd.png" alt="">   <!-- Круг -->
+        <table>
+            <tr><td>R: <input type="number" id="forma_kruga_1" value=0></td></tr> 
+           <tr><td></td></tr> 
+		   <tr><td></td></tr> 
+		   <tr><td>Area: <span>-</span></td><td>L:<span>-</span></td></tr>       
+        </table>
+    </div>   
+    <hr> 
+    <div class="container">   <!-- Овал -->
+        <img src="img/Oval.png" alt="">
+        <table>
+
+            <tr><td>Horizontal R: <input type="number" id="forma_ovala_1" value=0></td><td>Vertical R: <input type="number" id="forma_ovala_2" value=0></td></tr> 
+			<tr><td></td></tr> 
+			<tr><td></td></tr> 
+            <tr><td>Area: <span>-</span></td><td>L:<span>-</span></td></tr>       
+        </table>
+    </div>
+    <hr>
+    <div class="container">
+        <img src="img/Square.png" alt=""> <!-- Квадрат -->
+        <table>    
+            <tr><td>A: <input type="number" id="forma_kvadrata_1" value=0></td></tr> 
+			<tr><td></td></tr> 
+			<tr><td></td></tr> 
+            <tr><td>Diagonal: <span>-</span></td><td>Area:<span>-</span></td></tr>       
+        </table>
+    </div>
+    <hr>
+    <div class="container">
+        <img src="img/Прямоугольник.png" alt=""> <!-- Парямоугольник -->
+        <table>    
+            <tr><td>A: <input type="number" id="forma_pryamougolnik_1" value=0></td><td>B: <input type="number" id="forma_pryamougolnik_2" value=0></td></tr> 
+			<tr><td></td></tr> 
+			<tr><td></td></tr> 
+            <tr><td>Diagonal: <span>-</span></td><td>Area:<span>-</span></td></tr>       
+        </table>
+    </div>
+    <hr>
+    <div class="container">
+        <img src="img/Triangle.jpg" alt="">  <!-- Трехугольник -->
+        <table>    
+            <tr><td>A: <input type="number" id="forma_trehugonika_1" value=0></td><td>B: <input type="number" id="forma_trehugonika_2" value=0></td><td>C:<span></span></td></tr> 
+           <tr><td></td></tr> 
+		   <tr><td></td></tr> 
+		   <tr><td>a: <span>-</span></td><td>b:<span>-</span></td><td>c: <span>-</span></td></tr>
+		   <tr><td>Area: <span>-</span></td><td>h: <span>-</span></td><td></td></tr>   
+        </table>
+    </div>
+    <hr>
+    <div class="knopka">
+    <input onclick="fastcalc()" type="checkbox" ><span>Instant calculation</span><button onclick="calc()">Посчитать</button> <!-- Кнопка для обсчета результата и чекбокс для фаст счета если он включен -->
+    </div>
+    <script src="functions.js"></script>
+</body>
+</html>
